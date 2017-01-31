@@ -1,0 +1,330 @@
+.cleanslate, .cleanslate p, .cleanslate div, .cleanslate img, .cleanslate a, .cleanslate header, .cleanslate time {
+	background-color: transparent !important;
+	background-image: none !important;
+	background-position: 0 0 !important;
+	background-repeat: repeat !important;
+	border-color: black !important;
+	border-color: currentColor !important;
+	border-radius: 0 !important;
+	border-style: none !important;
+	border-width: medium !important;
+	bottom: auto !important;
+	clear: none !important;
+	color: inherit !important;
+	cursor: auto !important;
+	display: inline !important;
+	float: none !important;
+	font-family: inherit !important;
+	font-size: inherit !important;
+	font-style: inherit !important;
+	font-variant: normal !important;
+	font-weight: inherit !important;
+	height: auto !important;
+	left: auto !important;
+	letter-spacing: normal !important;
+	line-height: inherit !important;
+	list-style-type: inherit !important;
+	list-style-position: outside !important;
+	list-style-image: none !important;
+	margin: 0 !important;
+	max-height: none !important;
+	max-width: none !important;
+	min-height: 0 !important;
+	min-width: 0 !important;
+	opacity: 1;
+	outline: invert none medium !important;
+	overflow: visible !important;
+	padding: 0 !important;
+	position: static !important;
+	right: auto !important;
+	table-layout: auto !important;
+	text-align: inherit !important;
+	text-decoration: inherit !important;
+	text-indent: 0 !important;
+	text-transform: none !important;
+	top: auto !important;
+	vertical-align: baseline !important;
+	visibility: inherit !important;
+	white-space: normal !important;
+	width: auto !important;
+	word-spacing: normal !important;
+	z-index: auto !important;
+
+	-webkit-background-origin: padding-box !important;
+			background-origin: padding-box !important;
+	-webkit-background-clip: border-box !important;
+			background-clip: border-box !important;
+	-webkit-background-size: auto !important;
+	   -moz-background-size: auto !important;
+			background-size: auto !important;
+	-webkit-border-image: none !important;
+	   -moz-border-image: none !important;
+		 -o-border-image: none !important;
+			border-image: none !important;
+	-webkit-border-radius:0 !important;
+	   -moz-border-radius:0 !important;
+			border-radius: 0 !important;
+	-webkit-box-shadow: none !important;
+			box-shadow: none !important;
+	-webkit-box-sizing: content-box !important;
+	   -moz-box-sizing: content-box !important;
+			box-sizing: content-box !important;
+	font-feature-settings: normal !important;
+	overflow-x: visible !important;
+	overflow-y: visible !important;
+	text-shadow: none !important;
+	-webkit-transition: all 0s ease 0s !important;
+			transition: all 0s ease 0s !important;
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+		-ms-transform: none !important;
+		 -o-transform: none !important;
+			transform: none !important;
+	-webkit-transform-origin: 50% 50% !important;
+	   -moz-transform-origin: 50% 50% !important;
+		-ms-transform-origin: 50% 50% !important;
+		 -o-transform-origin: 50% 50% !important;
+			transform-origin: 50% 50% !important;
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+		-ms-transform-style: flat !important;
+		 -o-transform-style: flat !important;
+			transform-style: flat !important;
+	word-break: normal !important;
+}
+
+.cleanslate, .cleanslate p, .cleanslate div, .cleanslate header {
+	display:block !important;
+}
+
+.cleanslate p {
+	margin: 1em 0 !important;
+}
+
+.cleanslate a {
+	color: blue !important;
+	text-decoration: underline !important;
+}
+
+.cleanslate a:visited {
+	color: #529 !important;
+}
+
+.cleanslate a, .cleanslate a * {
+	cursor:pointer !important;
+}
+
+.cleanslate img {
+	border: 0 !important;
+}
+
+.cleanslate {
+	font-size: medium !important;
+	line-height: 1 !important;
+	direction: ltr !important;
+	text-align: left !important;
+	text-align: start !important;
+	color: black !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	text-decoration: none !important;
+	list-style-type: disc !important;
+}
+
+#ixd-week {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	left: 0 !important;
+	z-index: 5000 !important;
+	color: #f7f7f7 !important;
+	font-size: 14px !important;
+}
+
+#ixd-week a {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+#ixd-week .ixd-week-container {
+	max-width: 92.1875% !important;
+	margin: 0 auto !important;
+}
+
+#ixd-week-header {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	left: 0 !important;
+	z-index: 5002 !important;
+	font-size: 16px !important;
+}
+
+.active #ixd-week-header {
+	position: fixed !important;
+}
+
+#ixd-week-header {
+	font-weight: bold !important;
+}
+
+#ixd-week-header .ixd-week-container {
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5) !important;
+	overflow: hidden !important;
+}
+
+#ixd-week-header a {
+	display: inline-block !important;
+}
+
+#ixd-week-header p {
+	display: inline-block !important;
+	margin: 1em !important;
+}
+
+#ixd-week-header .toggle {
+	float: right !important;
+}
+
+#ixd-week-header .toggle p {
+	margin-right: 1.3em !important;
+}
+
+.toggle span {
+	display: none !important;
+}
+
+#ixd-week-inner {
+	height: 0 !important;
+	position: fixed !important;
+	right: 0 !important;
+	left: 0 !important;
+	z-index: 5001 !important;
+	overflow: hidden !important;
+	-webkit-transform: translateY(-100%) !important;
+	-ms-transform: translateY(-100%) !important;
+	transform: translateY(-100%) !important;
+	-webkit-transition: 300ms ease all !important;
+	-ms-transition: 300ms ease all !important;
+	transition: 300ms ease all !important;
+}
+
+.active #ixd-week-inner {
+	height: 100vh !important;
+	-webkit-transform: translateY(0) !important;
+	-ms-transform: translateY(0) !important;
+	transform: translateY(0) !important;
+}
+
+#ixd-week-inner .ixd-week-container {
+	padding-top: 70px !important;
+}
+
+#ixd-week .h-event {
+	padding: 0 1em !important;
+	margin-bottom: 1.5em !important;
+	line-height: 2 !important;
+}
+
+#ixd-week .h-event a:hover,
+#ixd-week .h-event.active {
+	color: #b5b5b5 !important;
+}
+
+#ixd-week .h-event .p-name {
+	display: inline-block !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	font-size: 16px !important;
+	font-weight: bold !important;
+}
+
+#ixd-week .h-event time {
+	float: right !important;
+	font-size: 16px !important;
+	font-weight: bold !important;
+}
+
+#ixd-week .h-event img {
+	display: none !important;
+}
+
+#ixd-week .h-event .p-summary {
+	margin-top: 0.5em !important;
+	line-height: 1.2 !important;
+}
+
+#ixd-week .h-event .p-url {
+	display: none !important;
+}
+
+@media (min-width: 968px) {
+	#ixd-week-inner .ixd-week-container {
+		padding-top: 160px !important;
+	}
+
+	#ixd-week,
+	#ixd-week-header {
+		font-size: 21px !important;
+	}
+
+	.toggle span {
+		display: inline-block !important;
+		margin: 0 1em !important;
+	}
+
+	#ixd-week .h-event {
+		-webkit-box-sizing: border-box !important;
+		box-sizing: border-box !important;
+		width: 25% !important;
+		padding: 0 1.5em !important;
+		float: left !important;
+		text-align: center !important;
+	}
+
+	#ixd-week .h-event .p-name {
+		display: none !important;
+	}
+
+	#ixd-week .h-event time {
+		float: none !important;
+		font-size: 24px !important;
+	}
+
+	#ixd-week .h-event img {
+		display: block !important;
+		width: 90% !important;
+		margin: 3em auto !important;
+	}
+
+	#ixd-week .h-event .p-summary {
+		line-height: 1.4 !important;
+	}
+
+	#ixd-week .h-event .p-url {
+		display: inline-block !important;
+		border-bottom-style: solid !important;
+		border-bottom-width: 2px !important;
+	}
+}
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.1em 0.1em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	position: relative;
+	top: 0.4em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.5em;
+	-webkit-transition: 300ms ease all !important;
+	-ms-transition: 300ms ease all !important;
+	transition: 300ms ease all !important;
+}
+
+.chevron.down:before {
+	top: 0.15em;
+	transform: rotate(135deg);
+}
